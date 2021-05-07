@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+.flex-container {
+  border: 0px solid;
+  border-color: black;
+  width: 90%;
+  display: flex;
+  padding: 0em;
+  justify-content: center;
+  justify-self: center;
+}
+
+.flex-container-vertical {
+  border: 1px solid black;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.box {
+  border: 1px solid;
+  margin: 0px;
+  padding: 1em;
+  flex: 1;
+}
+
+.box2 {
+  flex: 1;
+  border: 0.1px solid black;
+  /* height: 20%; */
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.75rem;
+}
