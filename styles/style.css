@@ -6,36 +6,100 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+  font-family: sans-serif;
+}
+
 .flex-container {
   border: 0px solid;
   border-color: black;
-  width: 90%;
+  align-self: center;
   display: flex;
   padding: 0em;
-  justify-content: center;
-  justify-self: center;
+  width: 100%;
 }
 
 .flex-container-vertical {
+  flex: 3;
+  display: inline-flex;
   border: 1px solid black;
   flex-direction: column;
-  align-items: stretch;
+  /* align-items: stretch; */
+}
+
+.column {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list {
+  flex: 1;
+  text-align: start;
+  padding: 20px;
+  font-size: 2em;
+  font-family: sans-serif;
+  text-decoration: none;
+  font-weight: 800;
+  /* border: 0.5px solid black; */
+}
+
+a {
+  text-decoration: none;
+  color: rgb(70, 70, 70);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(168, 34, 61);
 }
 
 .box {
   border: 1px solid;
   margin: 0px;
-  padding: 1em;
-  flex: 1;
+  padding: 10px;
 }
 
-.box2 {
-  flex: 1;
-  border: 0.1px solid black;
-  /* height: 20%; */
+.box-left {
+  width: 25%;
+}
+
+.box-middle {
+  width: 50%;
+}
+
+.box-right {
+  width: 25%;
 }
 
 p {
-  font-family: "Courier New", Courier, monospace;
+  font-family: sans-serif;
   font-size: 0.75rem;
+  text-align: justify;
+  text-justify: auto;
+  text-indent: 3em;
+}
+
+.politics {
+  background-color: rgb(243, 230, 171);
+}
+
+.technology {
+  background-color: rgb(130, 221, 221);
+}
+
+.local {
+  background-color: mediumaquamarine;
+}
+
+.opinion {
+  background-color: rgb(134, 134, 255);
+}
+
+.sports {
+  background-color: rgb(177, 118, 233);
 }
